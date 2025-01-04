@@ -22,6 +22,7 @@ a{
     position: fixed;
     top: -100px;
     transition: top 0.3s ease-in-out;
+    z-index: 100;
 }
 
 p {
@@ -67,7 +68,8 @@ p {
 /* choose us */
 .choose h1,
 .cities h1,
-.services h1 {
+.services h1,
+.faq h1 {
     font-size: 2.4em;
     font-weight: bold;
     color: rgb(8, 83, 156);
