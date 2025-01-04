@@ -53,6 +53,30 @@ p{
 
 }
 
+/* choose us */
+.choose h1{
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #08539cbf;
+    margin-bottom: 20px;
+}
+
+.choose li{
+    list-style-type: decimal;
+    font-size: 1.1em;
+}
+
+.choose-icon h1{
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.choose-icon i{
+    color: #f54642bf;
+    font-size: 4.5em;
+}
+
+
 
 /* footer */
 
@@ -113,8 +137,15 @@ footer {
         padding: 20px;
     }
 
+    .choose h1{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #08539cbf;
+        margin-bottom: 20px;
+    }
+
     .footer h1 {
-        font-size: 1.2em;
+        font-size: 1.4em;
         margin-bottom: 20px;
     }
 }
