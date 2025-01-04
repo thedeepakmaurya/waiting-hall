@@ -122,6 +122,37 @@ p{
     border-bottom: 1px solid lightblue;
 }
 
+/* form section */
+
+
+/* .form img{
+    border-radius: 50%;
+} */
+
+.form h1{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+button[type="submit"]{
+    background-color: #08539cbf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
 /* footer */
 
 footer {
