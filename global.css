@@ -50,11 +50,11 @@ p{
 
 .hero-content {
     padding: 0 50px;
-
 }
 
+
 /* choose us */
-.choose h1, .cities h1{
+.choose h1, .cities h1, .services h1{
     font-size: 2.4em;
     font-weight: bold;
     color: #08539cbf;
@@ -66,6 +66,15 @@ p{
     font-size: 1.1em;
 }
 
+.icon{
+    width: 32%;
+}
+
+.choose-icon{
+    display: flex;
+    gap: 20px;
+}
+
 .choose-icon h1{
     font-size: 1.2em;
     margin-bottom: 0;
@@ -74,6 +83,21 @@ p{
 .choose-icon i{
     color: #f54642bf;
     font-size: 4.5em;
+}
+
+
+.services .icon{
+    background-color: white;
+    width: 45%;
+}
+
+.services i{
+    color: #f54642bf;
+    font-size: 4.5em;
+}
+
+.services h2{
+    font-size: 1.1em;
 }
 
 /* city */
@@ -93,7 +117,10 @@ p{
     font-size: 1.1em;
 }
 
-
+.cities a{
+    text-decoration: none;
+    border-bottom: 1px solid lightblue;
+}
 
 /* footer */
 
@@ -141,6 +168,15 @@ footer {
         padding: 0;
     }
 
+    .icon{
+        width: 100%;
+    }
+    
+    .choose-icon{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
     .hero h1 {
         font-size: 2em;
@@ -154,7 +190,7 @@ footer {
         padding: 20px;
     }
 
-    .choose h1, .cities h1{
+    .choose h1, .cities h1, .services h1{
         font-size: 1.5em;
     }
 
