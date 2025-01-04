@@ -222,6 +222,10 @@ footer {
     align-items: center;
 }
 
+.footer ul{
+    padding-left: 0;
+}
+
 
 /* media query */
 
