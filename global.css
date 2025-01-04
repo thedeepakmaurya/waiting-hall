@@ -13,7 +13,14 @@
         --secondary: "#e11d48",
 }
 
-p{
+
+#navbar-desktop {
+    position: fixed;
+    top: -100px;
+    transition: top 0.3s ease-in-out;
+}
+
+p {
     margin-bottom: 0;
 }
 
@@ -54,70 +61,72 @@ p{
 
 
 /* choose us */
-.choose h1, .cities h1, .services h1{
+.choose h1,
+.cities h1,
+.services h1 {
     font-size: 2.4em;
     font-weight: bold;
-    color: #08539cbf;
+    color: rgb(8, 83, 156);
     margin-bottom: 20px;
 }
 
-.choose li{
+.choose li {
     list-style-type: decimal;
     font-size: 1.1em;
 }
 
-.icon{
+.icon {
     width: 32%;
 }
 
-.choose-icon{
+.choose-icon {
     display: flex;
     gap: 20px;
 }
 
-.choose-icon h1{
+.choose-icon h1 {
     font-size: 1.2em;
     margin-bottom: 0;
 }
 
-.choose-icon i{
-    color: #f54642bf;
+.choose-icon i {
+    color: #dc2626;
     font-size: 4.5em;
 }
 
 
-.services .icon{
+.services .icon {
     background-color: white;
     width: 45%;
 }
 
-.services i{
-    color: #f54642bf;
+.services i {
+    color: #dc2626;
     font-size: 4.5em;
 }
 
-.services h2{
+.services h2 {
     font-size: 1.1em;
 }
 
 /* city */
 
-.city{
+.city {
     padding: 10px 20px;
 }
 
-.city img{
+.city img {
     height: 120px;
     border-radius: 5px;
 }
 
-.city h2{
+.city h2 {
     text-align: center;
     margin-top: 10px;
     font-size: 1.1em;
 }
 
-.cities a{
+.cities a {
     text-decoration: none;
     border-bottom: 1px solid lightblue;
 }
@@ -129,12 +138,15 @@ p{
     border-radius: 50%;
 } */
 
-.form h1{
+.form h1 {
     font-size: 1.1em;
     margin-bottom: 20px;
 }
 
-input[type="text"], input[type="email"], input[type="number"], textarea{
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -143,8 +155,8 @@ input[type="text"], input[type="email"], input[type="number"], textarea{
     outline: none;
 }
 
-button[type="submit"]{
-    background-color: #08539cbf;
+button[type="submit"] {
+    background-color: rgb(8, 83, 156);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -156,7 +168,7 @@ button[type="submit"]{
 /* footer */
 
 footer {
-    background-color: #08539cbf;
+    background-color: rgb(8, 83, 156);
     color: #f9fafb;
     padding: 50px 0;
 }
@@ -182,7 +194,7 @@ footer {
 }
 
 .footer-social {
-    background-color: #f54642bf;
+    background-color: #dc2626;
     padding: 5px;
     border-radius: 50%;
     display: flex;
@@ -199,11 +211,11 @@ footer {
         padding: 0;
     }
 
-    .icon{
+    .icon {
         width: 100%;
     }
-    
-    .choose-icon{
+
+    .choose-icon {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -221,7 +233,9 @@ footer {
         padding: 20px;
     }
 
-    .choose h1, .cities h1, .services h1{
+    .choose h1,
+    .cities h1,
+    .services h1 {
         font-size: 1.5em;
     }
 
