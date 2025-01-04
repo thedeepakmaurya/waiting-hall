@@ -25,6 +25,10 @@ a{
     z-index: 100;
 }
 
+#mobile-nav{
+    z-index: 100;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -265,7 +269,7 @@ footer {
 
     .choose h1,
     .cities h1,
-    .services h1 {
+    .services h1, .faq h1 {
         font-size: 1.5em;
     }
 
