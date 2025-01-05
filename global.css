@@ -86,11 +86,12 @@ p {
 }
 
 .icon {
-    width: 32%;
+    width: 31%;
 }
 
 .choose-icon {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 
