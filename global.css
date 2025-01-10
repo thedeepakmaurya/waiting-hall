@@ -13,11 +13,6 @@ a {
     color: inherit;
 }
 
-:root {
-    --primary: "#4a044e",
-    --secondary: "#e11d48"
-}
-
 
 #navbar-desktop {
     position: fixed;
@@ -34,8 +29,10 @@ p {
     margin-bottom: 0;
 }
 
-.nav-title, .hero .hero-title, .footer .footer-title{
-  font-family: "Rubik Vinyl", serif;
+.nav-title,
+.hero .hero-title,
+.footer .footer-title {
+    font-family: "Rubik Vinyl", serif;
 }
 
 
@@ -50,7 +47,7 @@ p {
 /* hero section */
 .hero {
     background: linear-gradient(45deg,
-            rgba(245, 70, 66, 0.75),
+            rgba(245, 70, 66, 0.65),
             rgba(8, 83, 156, 0.75)),
         url('./assets/image/hero.jpg');
     color: white;
@@ -92,7 +89,11 @@ p {
 }
 
 .icon {
+    background: linear-gradient(90deg,
+            rgba(8, 83, 156, 0.75),
+            rgba(245, 70, 66, 0.75));
     width: 48%;
+    color: white;
 }
 
 .choose-icon {
@@ -107,19 +108,26 @@ p {
 }
 
 .choose-icon i {
-    color: #dc2626;
     font-size: 4.5em;
 }
 
 
 .services .icon {
-    background-color: white;
-    width: 45%;
+    background: linear-gradient(45deg,
+            rgba(245, 70, 66, 0.75),
+            rgba(8, 83, 156, 0.75));
+    width: 46.4%;
+    color: white;
+    padding: 4px;
 }
 
 .services i {
-    color: #dc2626;
+    color: white;
     font-size: 4.5em;
+}
+
+.services p {
+    font-weight: 500;
 }
 
 .services h2 {
@@ -241,6 +249,15 @@ footer {
     .hero {
         height: 500px;
         padding: 0;
+    }
+
+    .services .icon {
+        background: linear-gradient(45deg,
+                rgba(245, 70, 66, 0.75),
+                rgba(8, 83, 156, 0.75));
+        width: 100%;
+        color: white;
+        padding: 20px;
     }
 
     .icon {
