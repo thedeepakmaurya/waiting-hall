@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $number = htmlspecialchars(trim($_POST['number']));
     $message = htmlspecialchars(trim($_POST['message']));
     
-    $to = "hradmin@tsplgroup.in";
+    $to = "waitinghalldelhi@gmail.com";
     $subject = "Inquiry Form";
     
     $email_body = "You have received a new message:\n\n";
